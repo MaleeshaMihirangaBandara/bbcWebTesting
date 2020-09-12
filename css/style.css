@@ -1,0 +1,48 @@
+*{margin: 0; padding: 0;}
+.clearfix{overflow:none;}
+a{text-decoration: none;}
+
+.top-bar-links ul li{
+    float: left;
+    list-style: none;
+    padding: 0px 20px;
+    margin: 20px 0px;
+    border-right:1px solid black;
+}
+
+.top-bar-links :last-child{
+    border: none;
+}
+
+.top-bar-links img{
+    position: relative;
+    top: 21px;
+}
+
+.top-bar-links{
+    position: relative;
+    left: 100px;
+
+}
+.top-bar-signin{
+    float: left;
+}
+
+
+
+.top-bar-search{
+    clear: both;
+}
+
+.top-bar-search button{
+    background: url(../image/magnifying-glass.png);
+    width: 20px;
+    height:20px;
+    border: 0px;
+    padding: 3px;
+}
+
+.top-bar-search {
+    padding: 5px;
+    border: 0px;
+}
